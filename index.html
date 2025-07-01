@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guía Completa de Ciberseguridad - Pro</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  
+  <!-- FontAwesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1><i class="fas fa-shield-alt"></i> Guía Completa de Ciberseguridad</h1>
+    <p>Todo lo que necesitas saber para mantenerte seguro en el mundo digital</p>
+    <button id="btnModo">Modo Oscuro</button>
+  </header>
+
+  <nav>
+    <a href="#intro"><i class="fas fa-info-circle"></i> Introducción</a>
+    <a href="#tipos"><i class="fas fa-bug"></i> Amenazas</a>
+    <a href="#herramientas"><i class="fas fa-tools"></i> Herramientas</a>
+    <a href="#ciberataques"><i class="fas fa-exclamation-triangle"></i> Casos Famosos</a>
+    <a href="#formulario"><i class="fas fa-envelope"></i> Contáctanos</a>
+  </nav>
+
+  <main>
+    <!-- Introducción -->
+    <section id="intro">
+      <h2><i class="fas fa-info"></i> ¿Qué es la Ciberseguridad?</h2>
+      <p>
+        La ciberseguridad es el conjunto de medidas y prácticas diseñadas para proteger los sistemas informáticos y redes contra accesos no autorizados, daños o ataques. Garantiza confidencialidad, integridad y disponibilidad de datos.
+      </p>
+      <img src="FotoCiber.png" alt="Ciberseguridad" />
+    </section>
+
+    <!-- Amenazas -->
+    <section id="tipos">
+      <h2><i class="fas fa-bug"></i> Principales Amenazas</h2>
+      <div class="tarjetas">
+        <div class="card">
+          <h3><i class="fas fa-fish"></i> <a href="#phishing">Phishing</a></h3>
+          <p>Engaños para obtener datos personales mediante mensajes falsos.</p>
+          <img src="Pishing.png" alt="Phishing" />
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-bug"></i> <a href="#malware">Malware</a></h3>
+          <p>Software malicioso que puede dañar tu equipo o espiar tus datos.</p>
+          <img src="Malware.png" alt="Malware" />
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-user-secret"></i> <a href="#ingenieria">Ingeniería Social</a></h3>
+          <p>Manipulación para obtener información sensible directamente de las personas.</p>
+          <img src="Ingeniera social.png" alt="Ingeniería Social" />
+        </div>
+      </div>
+    </section>
+
+    <section id="herramientas">
+      <h2><i class="fas fa-tools"></i> Herramientas Básicas</h2>
+      <div class="tarjetas">
+        <div class="card">
+          <h3><i class="fas fa-network-wired"></i> <a href="#nmap">Nmap</a></h3>
+          <p>Explorador de redes y puertos para análisis y auditorías.</p>
+          <img src="nmap.png" alt="Nmap" />
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-wave-square"></i> <a href="#wireshark">Wireshark</a></h3>
+          <p>Analizador de paquetes en red para monitorear tráfico.</p>
+          <img src="Wireshark.png" alt="Wireshark" />
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-bolt"></i> <a href="#metasploit">Metasploit</a></h3>
+          <p>Framework para realizar pruebas de penetración.</p>
+          <img src="Metasploit.png" alt="Metasploit" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Casos famosos -->
+    <section id="ciberataques">
+      <h2><i class="fas fa-exclamation-triangle"></i> Casos Famosos</h2>
+      <ul>
+        <li><a href="#wannacry"><strong>WannaCry (2017)</strong></a></li>
+        <li><a href="#solarwinds"><strong>SolarWinds (2020)</strong></a></li>
+        <li><a href="#facebook"><strong>Facebook (2019)</strong></a></li>
+      </ul>
+    </section>
+
+    <!-- Detalles ampliados (solo algunas para ejemplo) -->
+    <section id="phishing">
+      <h2><i class="fas fa-fish"></i> Phishing</h2>
+      <p>
+        El phishing es una técnica de engaño donde los atacantes se hacen pasar por entidades confiables para robar datos personales y financieros.
+      </p>
+    </section>
+
+    <section id="malware">
+      <h2><i class="fas fa-bug"></i> Malware</h2>
+      <p>
+        Malware es cualquier software diseñado para dañar o comprometer la seguridad de un sistema. Ejemplos incluyen virus, troyanos y ransomware.
+      </p>
+    </section>
+
+    <section id="ingenieria">
+      <h2><i class="fas fa-user-secret"></i> Ingeniería Social</h2>
+      <p>
+        Consiste en técnicas de manipulación para obtener información confidencial mediante el engaño.
+      </p>
+    </section>
+
+    <section id="nmap">
+      <h2><i class="fas fa-network-wired"></i> Nmap</h2>
+      <p>
+        Nmap es una herramienta de escaneo de redes usada para descubrir hosts y servicios en una red informática.
+      </p>
+    </section>
+
+    <section id="wireshark">
+      <h2><i class="fas fa-wave-square"></i> Wireshark</h2>
+      <p>
+        Wireshark permite capturar y analizar el tráfico que pasa por una red en tiempo real.
+      </p>
+    </section>
+
+    <section id="metasploit">
+      <h2><i class="fas fa-bolt"></i> Metasploit</h2>
+      <p>
+        Metasploit es una plataforma para desarrollar y ejecutar exploits durante auditorías de seguridad.
+      </p>
+    </section>
+
+    <section id="wannacry">
+      <h2><i class="fas fa-virus"></i> WannaCry (2017)</h2>
+      <p>
+        Ataque global de ransomware que afectó a miles de organizaciones, cifrando datos y pidiendo rescate en Bitcoin.
+      </p>
+    </section>
+
+    <section id="solarwinds">
+      <h2><i class="fas fa-network-wired"></i> SolarWinds (2020)</h2>
+      <p>
+        Campaña de ciberespionaje que comprometió agencias gubernamentales y empresas mediante una actualización maliciosa.
+      </p>
+    </section>
+
+    <section id="facebook">
+      <h2><i class="fas fa-users"></i> Facebook (2019)</h2>
+      <p>
+        Filtración masiva de datos personales de más de 500 millones de usuarios.
+      </p>
+    </section>
+
+    <!-- Formulario -->
+    <section id="formulario">
+      <h2><i class="fas fa-envelope"></i> ¿Tienes dudas o sugerencias?</h2>
+      <form onsubmit="return validarFormulario()">
+        <input type="text" id="nombre" placeholder="Tu nombre" />
+        <input type="email" id="correo" placeholder="Tu correo" />
+        <textarea placeholder="Tu mensaje..."></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Creado por Adler Vega &copy; 2025 | Proyecto Web Informativo
+      <br />
+      Síguenos:
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </p>
+  </footer>
+
+  <button id="btnUp" title="Volver arriba"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
